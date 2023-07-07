@@ -10,7 +10,6 @@ import java.util.List;
 @Getter
 public class CreateStudentRequest {
 
-    @JsonProperty("firstName")
     private String firstName;
 
     private String lastName;
